@@ -1,0 +1,13 @@
+/* ------------------------------- Estilo del nav ---------------------------- */
+
+header{
+    grid-area:header;
+    top: 0px;
+    margin: 0px 1vw;
+    div{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}

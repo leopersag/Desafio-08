@@ -1,0 +1,271 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Open Sans',sans-serif;
+}
+
+.body_aside{
+    display: grid;
+    grid-template-areas:
+        "header"
+        "aside1"
+        "main"
+        "aside2"
+        "footer";
+    justify-items: stretch;
+    justify-content:stretch;
+    align-items: center;
+}
+
+.body_naside{
+    display: grid;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    justify-content:stretch;
+    align-items: center;
+}
+
+@import "nav";
+
+/* ------------------------------- Estilo del Main --------------------------------- */
+
+main{
+    grid-area:main;
+    margin: 5px 1vw;
+    color: #2d2d8f;
+    a{
+        text-decoration: none;
+        color: blue;
+    }
+    thead{
+        text-align: left;
+    }
+    .img_fondo{
+        width: 100vw;
+    }
+}
+
+.parrafo{
+    font-size: 17px;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+
+/* ---Estilo del Main Index--- */
+
+.img_main{
+    display: flex;
+    justify-content: center;
+}
+
+/* ---Estilo del Main Bio--- */
+
+#Nico_foto{
+    width: 70vw;
+    margin: 0px 5vw;
+}
+
+.Bio_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Bio_parrafo{
+    margin: 10px 5vw;
+}
+
+.Bio_intro{
+    margin: 10px 0px;
+    display: flex;
+    flex-flow: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.Bio_videos{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Bio_video{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px black;
+    margin: 25px 0px;
+}
+
+.Bio_video_title{
+    font-weight: 500;
+    text-align: center;
+}
+
+/* ---Estilo del Main Fotos--- */
+
+.Fotos{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    img{
+        width: 80vw;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+/* ---Estilo del Main Discografía--- */
+
+.disco_indice{
+    margin:10px 20px;
+    text-align: center;
+    li{
+        list-style: none;
+        margin: 5px 15px;
+    }
+}
+
+.disco_class{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color:#f5f5f5;
+}
+
+.disco{
+    margin: 25px 0px;
+    padding: 50px 0px 0px 0px;
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    border-top: 1px solid #808080;
+}
+
+.disco_titulo{
+    margin: 0px 0px 30px 30px;
+    font-size: large;
+}
+
+.disco_portada{
+    width: 250px;
+    border:5px solid #808080;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.disco_portada-temas{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tabla_temas{
+    width: 90vw;
+    background-color: #f5f5f5;
+    margin: 20px 10px;
+    td{
+        padding: 0px 5px;
+    }
+    thead th{
+        padding: 2px 0px;
+        border-bottom: 1px solid #808080;
+        background-color: #ececec;
+    }
+}
+
+.Item{
+    text-align: center;
+    width: 40px;
+}
+
+.Time{
+    text-align: center;
+    width: 70px; 
+}
+
+.inicio{
+    text-align: right;
+    font-size: 13px;
+    margin-right: 30px;
+    text-decoration: underline;
+}
+
+/* ---Estilo del Main Contacto--- */
+
+.main_contacto{
+    text-align: center;
+}
+
+.contacto_img{
+    width: 80vw;
+}
+
+.contacto_info{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.contacto_forms{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.p_reserva{
+    margin-top: 10px;
+    width: 80vw;
+    font-size: 15px;
+}
+
+.selector_reserva{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #a3a3a3;
+    border-radius: 10px;
+    height: 25px;
+    width: 40vw;
+}
+
+.Contacto_formulario{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contacto_formulario_namebox{
+    margin-top: 10px;
+}
+
+.Contacto_formulario_box{
+    background-color: #e2e2e2;
+    color: black;
+    width: 80vw;
+}
+
+.boton{
+    margin: 10px 10px 10px 0px;
+    background-color: #f5f5f5;
+    width: 70px;
+}
+
+@import "aside";
+@import "footer";
+@import "mq-768";
+@import "mq-1024";
+
+
+

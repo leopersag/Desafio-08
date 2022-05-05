@@ -1,0 +1,25 @@
+{
+  "name": "desafio-08",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css-compiler": "node-sass --include-path scss scss/main.scss css/main.css",
+    "auto-css": "nodemon -e scss -x \"npm run css-compiler\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leopersag/Desafio-08.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leopersag/Desafio-08/issues"
+  },
+  "homepage": "https://github.com/leopersag/Desafio-08#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
