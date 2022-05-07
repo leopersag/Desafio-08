@@ -292,8 +292,7 @@ footer {
     grid-template-areas: "header header header" "main main main" "footer footer footer"; }
   /* ---Estilo del nav--- */
   header div {
-    flex-flow: row wrap;
-    justify-content: flex-end; }
+    flex-flow: row wrap; }
   nav div ul li {
     margin: 0px;
     padding: 10px 10px; }
@@ -357,6 +356,10 @@ footer {
   footer div {
     flex-flow: row wrap;
     justify-content: flex-end; } }
+
+/* ---Estilo del Main Contacto--- */
+header div {
+  justify-content: flex-end; }
 
 /* ------------------------------- Media query >1024px ------------------------------- */
 /* ------------------------------- Media query >1024px ------------------------------- */
