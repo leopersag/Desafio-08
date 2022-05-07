@@ -231,6 +231,7 @@ main {
 
 .aside_foto {
   width: 10vw;
+  max-width: 150px;
   animation-name: aparicion;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
@@ -295,7 +296,7 @@ footer {
     flex-flow: row wrap; }
   nav div ul li {
     margin: 0px;
-    padding: 10px 10px; }
+    padding: 10px; }
   /* ---Estilo del Main--- */
   main a:hover {
     text-decoration: underline; }
@@ -316,7 +317,7 @@ footer {
   .Bio_videos {
     flex-flow: row wrap; }
   .Bio_video {
-    margin: 25px 25px; }
+    margin: 25px; }
   .Bio_video_vid {
     width: 560px;
     height: 315px; }

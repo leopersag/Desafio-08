@@ -22,7 +22,7 @@
     /* ---Estilo del Main Contacto--- */
 
     .main_contacto{
-        margin-left: 10px;
+        margin-left: $pxsize*2;
         text-align: left;
     }
 
@@ -31,7 +31,7 @@
     }
     .contacto_img{
         width: 340px;
-        margin-right: 10px;
+        margin-right: $pxsize*2;
     }
 
     .contacto_info{

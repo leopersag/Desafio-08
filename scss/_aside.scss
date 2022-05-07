@@ -2,19 +2,20 @@
 
 .aside1{
     grid-area: aside1;
-    margin: 5px 0px 5px 1vw;
+    margin: $pxsize 0px $pxsize $separacion;
     transform: rotate(90deg);
     justify-self: center;
 }
 .aside2{
     grid-area: aside2;
-    margin: 5px 1vw 5px 0px;
+    margin: $pxsize $separacion $pxsize 0px;
     transform: rotate(90deg);
     justify-self: center;
 }
 
 .aside_foto{
     width: 10vw;
+    max-width: 150px;
     animation-name: aparicion;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;

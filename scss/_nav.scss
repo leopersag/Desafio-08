@@ -3,7 +3,7 @@
 header{
     grid-area:header;
     top: 0px;
-    margin: 0px 1vw;
+    margin: 0px $separacion;
     div{
         display: flex;
         flex-flow: column wrap;

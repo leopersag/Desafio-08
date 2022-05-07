@@ -27,7 +27,7 @@
 
     nav div ul li{
         margin: 0px;
-        padding: 10px 10px;
+        padding: $pxsize*2;
     }
 
     /* ---Estilo del Main--- */
@@ -46,12 +46,12 @@
     }
 
     .parrafo{
-        margin: 10px 0px 20px 0px;
+        margin: $pxsize*2 0px $pxsize*4 0px;
     }
 
     .Bio_parrafo{
         width: 50vw;
-        margin: 10px 30px 20px 30px;
+        margin: $pxsize*2 $pxsize*6 $pxsize*4 $pxsize*6;
     }
 
     .Bio_intro{
@@ -65,7 +65,7 @@
     }
 
     .Bio_video{
-        margin: 25px 25px;
+        margin: $pxsize*5;
     }
 
     .Bio_video_vid{
@@ -98,7 +98,7 @@
     }
 
     .disco_titulo{
-        margin: 0px 0px 15px 30px;
+        margin: 0px 0px $pxsize*3 $pxsize*6;
     }
 
     .disco_portada{
@@ -116,7 +116,7 @@
     }
 
     .inicio{
-        margin-top: 20px;
+        margin-top: $pxsize*4;
     }
 
     .asidea{
