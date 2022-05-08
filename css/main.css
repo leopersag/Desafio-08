@@ -32,10 +32,10 @@ header {
 main {
   grid-area: main;
   margin: 5px 1vw;
-  color: #2d2d8f; }
+  color: #303030; }
   main a {
     text-decoration: none;
-    color: blue; }
+    color: #0000d5; }
   main thead {
     text-align: left; }
   main .img_fondo {
@@ -82,8 +82,8 @@ main {
   flex-flow: column wrap;
   justify-content: space-evenly;
   align-items: center;
-  color: black;
-  text-shadow: 2px 2px 5px black;
+  color: #000000;
+  text-shadow: 2px 2px 5px #000000;
   margin: 25px 0px; }
 
 .Bio_video_title {
@@ -148,7 +148,7 @@ main {
   .tabla_temas thead th {
     padding: 2px 0px;
     border-bottom: 1px solid #808080;
-    background-color: #ececec; }
+    background-color: #e2e2e2; }
 
 .Item {
   text-align: center;
@@ -192,8 +192,8 @@ main {
 .selector_reserva {
   margin-top: 10px;
   margin-bottom: 10px;
-  background-color: #a3a3a3;
-  border-radius: 10px;
+  background-color: #e2e2e2;
+  border-radius: 5px;
   height: 25px;
   width: 40vw; }
 
@@ -208,7 +208,7 @@ main {
 
 .Contacto_formulario_box {
   background-color: #e2e2e2;
-  color: black;
+  color: #000000;
   width: 80vw; }
 
 .boton {
@@ -240,24 +240,204 @@ main {
 @keyframes aparicion {
   0% {
     opacity: 0; }
+  1% {
+    opacity: 0.02; }
+  2% {
+    opacity: 0.04; }
+  3% {
+    opacity: 0.06; }
+  4% {
+    opacity: 0.08; }
+  5% {
+    opacity: 0.1; }
+  6% {
+    opacity: 0.12; }
+  7% {
+    opacity: 0.14; }
+  8% {
+    opacity: 0.16; }
+  9% {
+    opacity: 0.18; }
   10% {
     opacity: 0.2; }
+  11% {
+    opacity: 0.22; }
+  12% {
+    opacity: 0.24; }
+  13% {
+    opacity: 0.26; }
+  14% {
+    opacity: 0.28; }
+  15% {
+    opacity: 0.3; }
+  16% {
+    opacity: 0.32; }
+  17% {
+    opacity: 0.34; }
+  18% {
+    opacity: 0.36; }
+  19% {
+    opacity: 0.38; }
   20% {
     opacity: 0.4; }
+  21% {
+    opacity: 0.42; }
+  22% {
+    opacity: 0.44; }
+  23% {
+    opacity: 0.46; }
+  24% {
+    opacity: 0.48; }
+  25% {
+    opacity: 0.5; }
+  26% {
+    opacity: 0.52; }
+  27% {
+    opacity: 0.54; }
+  28% {
+    opacity: 0.56; }
+  29% {
+    opacity: 0.58; }
   30% {
     opacity: 0.6; }
+  31% {
+    opacity: 0.62; }
+  32% {
+    opacity: 0.64; }
+  33% {
+    opacity: 0.66; }
+  34% {
+    opacity: 0.68; }
+  35% {
+    opacity: 0.7; }
+  36% {
+    opacity: 0.72; }
+  37% {
+    opacity: 0.74; }
+  38% {
+    opacity: 0.76; }
+  39% {
+    opacity: 0.78; }
   40% {
     opacity: 0.8; }
+  41% {
+    opacity: 0.82; }
+  42% {
+    opacity: 0.84; }
+  43% {
+    opacity: 0.86; }
+  44% {
+    opacity: 0.88; }
+  45% {
+    opacity: 0.9; }
+  46% {
+    opacity: 0.92; }
+  47% {
+    opacity: 0.94; }
+  48% {
+    opacity: 0.96; }
+  49% {
+    opacity: 0.98; }
   50% {
     opacity: 1; }
+  51% {
+    opacity: 0.98; }
+  52% {
+    opacity: 0.96; }
+  53% {
+    opacity: 0.94; }
+  54% {
+    opacity: 0.92; }
+  55% {
+    opacity: 0.9; }
+  56% {
+    opacity: 0.88; }
+  57% {
+    opacity: 0.86; }
+  58% {
+    opacity: 0.84; }
+  59% {
+    opacity: 0.82; }
   60% {
     opacity: 0.8; }
+  61% {
+    opacity: 0.78; }
+  62% {
+    opacity: 0.76; }
+  63% {
+    opacity: 0.74; }
+  64% {
+    opacity: 0.72; }
+  65% {
+    opacity: 0.7; }
+  66% {
+    opacity: 0.68; }
+  67% {
+    opacity: 0.66; }
+  68% {
+    opacity: 0.64; }
+  69% {
+    opacity: 0.62; }
   70% {
     opacity: 0.6; }
+  71% {
+    opacity: 0.58; }
+  72% {
+    opacity: 0.56; }
+  73% {
+    opacity: 0.54; }
+  74% {
+    opacity: 0.52; }
+  75% {
+    opacity: 0.5; }
+  76% {
+    opacity: 0.48; }
+  77% {
+    opacity: 0.46; }
+  78% {
+    opacity: 0.44; }
+  79% {
+    opacity: 0.42; }
   80% {
     opacity: 0.4; }
+  81% {
+    opacity: 0.38; }
+  82% {
+    opacity: 0.36; }
+  83% {
+    opacity: 0.34; }
+  84% {
+    opacity: 0.32; }
+  85% {
+    opacity: 0.3; }
+  86% {
+    opacity: 0.28; }
+  87% {
+    opacity: 0.26; }
+  88% {
+    opacity: 0.24; }
+  89% {
+    opacity: 0.22; }
   90% {
     opacity: 0.2; }
+  91% {
+    opacity: 0.18; }
+  92% {
+    opacity: 0.16; }
+  93% {
+    opacity: 0.14; }
+  94% {
+    opacity: 0.12; }
+  95% {
+    opacity: 0.1; }
+  96% {
+    opacity: 0.08; }
+  97% {
+    opacity: 0.06; }
+  98% {
+    opacity: 0.04; }
+  99% {
+    opacity: 0.02; }
   100% {
     opacity: 0; } }
 

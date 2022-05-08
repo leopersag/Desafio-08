@@ -22,48 +22,18 @@
     animation-duration: 2s;
 }
 
+$j:-1;
 @keyframes aparicion{
-    0%{
-        opacity: 0;
-    }
-
-    10%{
-        opacity: 0.2;
-    }
-
-    20%{
-        opacity: 0.4;
-    }
-
-    30%{
-        opacity: 0.6;
-    }
-
-    40%{
-        opacity: 0.8;
-    }
-
-    50%{
-        opacity: 1;
-    }
-
-    60%{
-        opacity: 0.8;
-    }
-
-    70%{
-        opacity: 0.6;
-    }
-
-    80%{
-        opacity: 0.4;
-    }
-
-    90%{
-        opacity: 0.2;
-    }
-
-    100%{
-        opacity: 0;
+    @for $i from 0% through 100%{
+        $j:$j+1;
+        @if $i < 51% {
+            #{$i} {
+                opacity:0.02*$j;
+            }
+        }@else{
+            #{$i} {
+                opacity:2-(0.02*$j);
+            }
+        }
     }
 }

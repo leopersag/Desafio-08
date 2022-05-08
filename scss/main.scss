@@ -1,5 +1,11 @@
 $separacion: 1vw;
 $pxsize: 5px;
+$color_font: #303030;
+$color_link: #0000d5;
+$color1: #f5f5f5;
+$color2: #808080;
+$color3: #000000;
+$color4: #e2e2e2;
 
 *{
     margin: 0px;
@@ -37,10 +43,10 @@ $pxsize: 5px;
 main{
     grid-area:main;
     margin: $pxsize $separacion;
-    color: #2d2d8f;
+    color: $color_font;
     a{
         text-decoration: none;
-        color: blue;
+        color: $color_link;
     }
     thead{
         text-align: left;
@@ -101,8 +107,8 @@ main{
     flex-flow: column wrap;
     justify-content:space-evenly;
     align-items: center;
-    color: rgb(0, 0, 0);
-    text-shadow: 2px 2px 5px black;
+    color: $color3;
+    text-shadow: 2px 2px 5px $color3;
     margin: $pxsize*5 0px;
 }
 
@@ -140,7 +146,7 @@ main{
     margin-top: $pxsize*2;
     font-size: 18px;
     font-weight: 500;
-    background-color:#f5f5f5;
+    background-color: $color1;
 }
 
 .disco{
@@ -149,7 +155,7 @@ main{
     display:flex;
     flex-flow: column wrap;
     justify-content: space-between;
-    border-top: 1px solid #808080;
+    border-top: 1px solid $color2;
 }
 
 .disco_titulo{
@@ -159,7 +165,7 @@ main{
 
 .disco_portada{
     width: 250px;
-    border:$pxsize solid #808080;
+    border:$pxsize solid $color2;
     border-radius: $pxsize;
     margin-bottom: $pxsize*6;
 }
@@ -173,15 +179,15 @@ main{
 
 .tabla_temas{
     width: 90vw;
-    background-color: #f5f5f5;
+    background-color: $color1;
     margin: $pxsize*4 $pxsize*2;
     td{
         padding: 0px $pxsize;
     }
     thead th{
         padding: 2px 0px;
-        border-bottom: 1px solid #808080;
-        background-color: #ececec;
+        border-bottom: 1px solid $color2;
+        background-color: $color4;
     }
 }
 
@@ -236,8 +242,8 @@ main{
 .selector_reserva{
     margin-top: $pxsize*2;
     margin-bottom: $pxsize*2;
-    background-color: #a3a3a3;
-    border-radius: $pxsize*2;
+    background-color: $color4;
+    border-radius: $pxsize;
     height: 25px;
     width: 40vw;
 }
@@ -254,14 +260,14 @@ main{
 }
 
 .Contacto_formulario_box{
-    background-color: #e2e2e2;
-    color: black;
+    background-color: $color4;
+    color: $color3;
     width: 80vw;
 }
 
 .boton{
     margin: $pxsize*2 $pxsize*2 $pxsize*2 0px;
-    background-color: #f5f5f5;
+    background-color: $color1;
     width: 70px;
 }
 
