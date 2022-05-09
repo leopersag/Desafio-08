@@ -5,9 +5,6 @@ header{
     top: 0px;
     margin: 0px $separacion;
     div{
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: center;
-        align-items: center;
+        @include display_format2;
     }
 }

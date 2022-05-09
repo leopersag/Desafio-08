@@ -21,13 +21,21 @@
     
     /* ---Estilo del nav--- */
 
-    header div{
-        flex-flow: row wrap;
+    header{
+        div{
+            flex-flow: row wrap;
+        }
     }
 
-    nav div ul li{
-        margin: 0px;
-        padding: $pxsize*2;
+    nav{
+        div{
+            ul{
+                li{
+                    margin: 0px;
+                    padding: $pxsize*2;
+                }
+            }
+        } 
     }
 
     /* ---Estilo del Main--- */
@@ -119,21 +127,21 @@
         margin-top: $pxsize*4;
     }
 
-    .asidea{
-        grid-area: asidea;
-        transform: rotate(0deg);
-    }
-    
-    .asideb{
-        grid-area: asideb;
-        transform: rotate(0deg);
+    $asides: asidea, asideb;
+    @each $aside in $asides {
+        .#{$aside}{
+            grid-area: $aside;
+            transform: rotate(0deg);
+        }
     }
 
     /* ---Estilo del Footer--- */
 
-    footer div{
-        flex-flow: row wrap;
-        justify-content:flex-end;
-    }
+    footer{
+        div{
+            flex-flow: row wrap;
+            justify-content:flex-end;
+        }
+    } 
 
 }

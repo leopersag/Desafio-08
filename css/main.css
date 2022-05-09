@@ -178,7 +178,7 @@ main {
   align-items: center;
   margin: 10px 0px; }
 
-.contacto_forms {
+.contacto_forms .Contacto_formulario {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -195,13 +195,7 @@ main {
   background-color: #e2e2e2;
   border-radius: 5px;
   height: 25px;
-  width: 40vw; }
-
-.Contacto_formulario {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: center; }
+  width: auto; }
 
 .Contacto_formulario_namebox {
   margin-top: 10px; }
@@ -565,8 +559,6 @@ header div {
     justify-content: space-between; }
   .p_reserva {
     width: 35vw; }
-  .selector_reserva {
-    width: auto; }
   .Contacto_formulario {
     align-items: flex-start; }
   .Contacto_formulario_box {

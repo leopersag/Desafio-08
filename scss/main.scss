@@ -7,6 +7,20 @@ $color2: #808080;
 $color3: #000000;
 $color4: #e2e2e2;
 
+@mixin display_format1 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+@mixin display_format2 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -95,18 +109,12 @@ main{
     align-items: center;
 }
 
-.Bio_videos{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-evenly;
-    align-items: center;
+.Bio_videos {
+    @include display_format1;
 }
 
 .Bio_video{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content:space-evenly;
-    align-items: center;
+    @include display_format1;
     color: $color3;
     text-shadow: 2px 2px 5px $color3;
     margin: $pxsize*5 0px;
@@ -171,10 +179,7 @@ main{
 }
 
 .disco_portada-temas{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-evenly;
-    align-items: center;
+    @include display_format1;
 }
 
 .tabla_temas{
@@ -226,11 +231,8 @@ main{
     margin: $pxsize*2 0px;
 }
 
-.contacto_forms{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
+.contacto_forms .Contacto_formulario{
+    @include display_format2;
 }
 
 .p_reserva{
@@ -245,14 +247,7 @@ main{
     background-color: $color4;
     border-radius: $pxsize;
     height: 25px;
-    width: 40vw;
-}
-
-.Contacto_formulario{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
+    width: auto;
 }
 
 .Contacto_formulario_namebox{
